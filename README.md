@@ -21,7 +21,7 @@ This folder contains scripts used for automatic classification and preprocessing
 - `Experiments_Binary_Classification.ipynb`:  
   Script for binary classification experiments using the transformer-based model **BETO** ([Cañete et al., 2020](https://github.com/dccuchile/beto)).
 
-- `IAA-Krippendorff.xx`:  
+- `code_alphakrippendorff.R`:  
   R script to calculate **Inter-Annotator Agreement (IAA)** using **Krippendorff’s Alpha**, developed by Dr. Ricardo Alvarado-Barrantes (University of Costa Rica).
 
 ---
