@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository presents the **Corpus on Women in YouTube on Performance with Attitude Annotations (CoWoYTP1Att)** dataset, comprising **1,521 comments** annotated using the **Attitude domain of Appraisal Theory** (Martin & White, 2005). For details on the annotation labels and process, see [`Annotation_Guidelines.pdf`](./Annotation_Guidelines.pdf).
+This repository presents the **Corpus on Women in YouTube on Performance with Attitude Annotations (CoWoYTP1Att)** dataset, comprising **1,521 comments** annotated using the **Attitude domain of Appraisal Theory** (Martin & White, 2005). For details on the annotation labels and process, see [`Annotation_Guidelines.pdf`](./Annotation_Guidelines_Attitude.pdf).
 
 ---
 
@@ -30,8 +30,12 @@ This folder contains scripts used for automatic classification and preprocessing
 
 This folder includes raw, annotated, and experimental data:
 
-- `Raw_data.csv` / `Raw_data.json`:  
+- `CoWoYTP.csv` / `CoWoYTP.json`:  
   Full set of **14,883 extracted comments**.
+
+- `CoWoYTP1.csv` / `CoWoYTP1.json`:  
+  Dataset with **5K comments related to the video content**.
+
 
 - `sample_Task1.csv` / `sample_Task1.json`:  
   A sample of **1,200 annotated comments** used for fine-tuning in the **first experiment**.
@@ -46,9 +50,8 @@ This folder includes raw, annotated, and experimental data:
 
 ### Additional Files
 
-- `Annotation_Guidelines.pdf`:  
-  Latest version of the annotation guidelines in **Spanish**.  
-  > _An English translation will be uploaded soon._
+- `Annotation_Attitude_Guidelines.pdf`: original version is in Spanish and the English Translation has been made available.
+  
 
 ---
 
